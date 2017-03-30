@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdio.h>
-#include<conio.h>
 
 using namespace std;
 
@@ -16,7 +15,6 @@ struct Node{
 	else
 		return 0;
 	}
-
 void indepan(int dt2)
 {
 	Node *grs;
@@ -34,7 +32,6 @@ void indepan(int dt2)
 	}
 	cout<<"\n Data Masuk \n";
 }
-
 void tampildata()
 {
 	Node *hlp;
@@ -51,7 +48,6 @@ void tampildata()
 	}
 	else cout<<"Data Kosong\n";
 }
-
 void hapusDepan()
 {
 	Node *hapus;
@@ -73,7 +69,6 @@ void hapusDepan()
 	}
 	else cout<<"data belum ada\n";
 }
-
 void hapusBelakang()
  {
 	Node *hapus,*hlp;
